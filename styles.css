@@ -30,6 +30,7 @@ nav {
 /* to edit the logo */
 .logo {
     width: 140px;
+    border-radius: 10px;
 }
 /* nav bar list items/links */
 nav ul li {
