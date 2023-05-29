@@ -1,16 +1,43 @@
+.container{
+  /* background-color: plum; */
+}
+#projects h2 {
+  text-align: center;
+}
+
 .projects-list {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  /* margin: 30px; */
+  margin-top: 50px;
+
+  /* background-color: plum; */
 
 }
 
 .project-item {
   flex: 0 0 300px;
-  /* Add any additional styling for the project item */
-}
 
+  margin-bottom: 60px;
+
+}
+.project-item h3 {
+  text-align: center;
+}
 .project-item img {
   width: 100%;
   height: auto;
+  border-radius: 20px;
+  padding: 10px;
+  /* how long the transition will take and what type */
+  transition: transform 0.3s ease; 
+  transform-origin: center center;
+}
+.project-item:hover img {
+  transform: scale(1.03);
+}
+
+.project-item p {
+  text-align: center;
 }

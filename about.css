@@ -36,6 +36,9 @@
 
     /* border: 5px dashed rgb(9, 255, 0); */
 }
+.about-column2 h2{
+    margin-bottom: 20px;
+}
 
 /* tab titles section */
 .tab-titles{
