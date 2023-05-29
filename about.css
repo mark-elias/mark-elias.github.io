@@ -77,3 +77,16 @@
 .tab-contents.active-tab{
     display: block;
 }
+
+#job-info {
+    list-style: none;
+    color: #0079D1;
+    font-weight: bold;
+    margin-bottom: 20px;
+
+}
+#school-info{
+    list-style: none;
+    color: #0079D1;
+    font-weight: bold;
+}
