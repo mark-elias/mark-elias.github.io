@@ -1,69 +1,16 @@
-#projects {
-  /* background-color: rgb(140, 140, 140); */
-
-  padding: 80px 0;
-}
-/* .container {
-  background-color: blue;
-} */
-.work-list {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  grid-gap: 40px;
-  margin-top: 50px;
-
-  /* background-color: blueviolet; */
-}
-.work {
-  border-radius: 10px;
-  position: relative;
-  overflow: hidden;
-}
-.work img {
-  width: 100%;
-  border-radius: 10px;
-  display: block;
-
-  transition: transform 0.5s;
-}
-
-.layer {
-  width: 100%;
-  height: 0;
-  background: linear-gradient(rgba(0,0,0,0.6), #0079d1);
-  border-radius: 10px;
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  overflow: hidden;
+.projects-list {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 0 40px;
-  text-align: center;
-  font-size: 14px;
-  
-  transition: height 0.5s;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
 }
-.layer h3{
-    font-weight: 500;
-    margin-bottom: 20px;
+
+.project-item {
+  flex: 0 0 300px;
+  /* Add any additional styling for the project item */
 }
-.layer a{
-    margin-top: 20px;
-    color: #0079d1;
-    text-decoration: none;
-    font-size: 18px;
-    line-height: 60px;
-    background: #fff;
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
-}
-.work:hover img {
-    transform: scale(1.3);
-}
-.work:hover .layer{
-    height: 100%;
+
+.project-item img {
+  width: 100%;
+  height: auto;
 }
