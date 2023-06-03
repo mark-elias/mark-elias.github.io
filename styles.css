@@ -12,4 +12,20 @@ body {
 h2{
     color: #0079D1;
 }
+.container {
+    padding-left: 7%;
+    padding-right: 7%;
 
+    /* margin-bottom: 7%; */
+
+    /* background-color: orange; */
+}
+a{
+    color: #0079D1;
+    /* text-decoration: none; */
+}
+
+.container {
+    margin-bottom: 5%;
+    /* background-color: rgb(48, 48, 48); */
+}

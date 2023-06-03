@@ -1,5 +1,24 @@
-.contact-section{
+#contact h2 {
+    text-align: center;
+    color: #0079D1;
+    margin-bottom: 20px;
+}
+#contact-section{
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
+    justify-content: flex-start;
+
+
+    background-color: plum;
+
+}
+.resume-section{
+    width: 300px;
+    height: 100px;
+    
+    background-color: orange;
+}
+.contact-section {
+
 }

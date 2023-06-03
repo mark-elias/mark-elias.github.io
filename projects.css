@@ -1,16 +1,17 @@
-.container{
-  /* background-color: plum; */
-}
+
 #projects h2 {
   text-align: center;
+
+  /* margin-top: 17%; */
+  margin-bottom: 3%;
 }
 
 .projects-list {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-evenly;
   /* margin: 30px; */
-  margin-top: 50px;
+  /* margin-top: 50px; */
 
   /* background-color: plum; */
 
@@ -19,7 +20,11 @@
 .project-item {
   flex: 0 0 300px;
 
-  margin-bottom: 60px;
+  margin-bottom: 5%;
+
+  border: 0.7px solid #0079D1;
+  border-radius: 10px;
+  padding: 1%;
 
 }
 .project-item h3 {
@@ -36,6 +41,30 @@
 }
 .project-item:hover img {
   transform: scale(1.03);
+}
+.project-item iframe {
+  /* width: 100%;
+  height: auto; */
+  border-radius: 20px;
+  padding: 10px;
+  /* how long the transition will take and what type */
+  transition: transform 0.3s ease; 
+  transform-origin: center center;
+}
+.project-item iframe:hover {
+  transform: scale(1.03);
+}
+.project-item video {
+  width: 100%;
+  height: 80%;
+  border-radius: 20px;
+  padding: 10px;
+  /* how long the transition will take and what type */
+  transition: transform 0.3s ease; 
+  transform-origin: center center;
+}
+.project-item video:hover {
+  transform: scale(1.07);
 }
 
 .project-item p {
