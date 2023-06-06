@@ -9,64 +9,61 @@
 } */
 
 nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-    margin-top: 2%;
-    /* position:fixed ; */
-
-   
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 2%;
+  /* position:fixed ; */
 }
 /* to edit the logo */
 .logo {
-    width: 200px;
-    border-radius: 10px;
+  width: 200px;
+  border-radius: 10px;
 }
 /* nav bar list items/links */
 nav ul li {
-    display: inline-block;
-    list-style: none;
-    /* margin: 10px 20px; */
-    margin-left: 2vw;
-
+  display: inline-block;
+  list-style: none;
+  /* margin: 10px 20px; */
+  margin-left: 2vw;
 }
 nav ul li a {
-    color: white;
-    text-decoration: none;
-    font-size: 18px;
-    position: relative;
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  position: relative;
 }
 /* for changing the hover coloring for the navbar buttons */
-nav ul li a::after{
-    content: '';
-    width: 0;
-    height: 3px; 
-    background: #0079D1;
-    position: absolute;
-    left: 0;
-    bottom: -6px;
-    transition: 0.5s;
+nav ul li a::after {
+  content: "";
+  width: 0;
+  height: 3px;
+  background: #0079d1;
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  transition: 0.5s;
 }
 /* makes the hover color visible on hover */
-nav ul li a:hover::after{
-    width: 100%;
+nav ul li a:hover::after {
+  width: 100%;
 }
 
 /* --------------------------- for the text next to my image */
 
 #header-text {
-    margin-top: 10%;
-    text-align: center;
-    /* background-color: orange; */
+  margin-top: 10%;
+  text-align: center;
+  /* background-color: orange; */
 }
 #intro {
-    margin-bottom: 5%;
+  margin-bottom: 5%;
 }
 #intro span {
-    color: #0079D1;
-    font-style: italic;
+  color: #0079d1;
+  font-style: italic;
 }
 #header-text p {
-    margin-bottom: 1%;
+  margin-bottom: 1%;
 }

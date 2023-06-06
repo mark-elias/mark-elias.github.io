@@ -1,24 +1,21 @@
 #contact h2 {
-    text-align: center;
-    color: #0079D1;
-    margin-bottom: 20px;
+  text-align: center;
+  color: #0079d1;
+  margin-bottom: 20px;
 }
-#contact-section{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: flex-start;
+#contact-section {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
 
-
-    background-color: plum;
-
+  background-color: plum;
 }
-.resume-section{
-    width: 300px;
-    height: 100px;
-    
-    background-color: orange;
+.resume-section {
+  width: 300px;
+  height: 100px;
+
+  background-color: orange;
 }
 .contact-section {
-
 }

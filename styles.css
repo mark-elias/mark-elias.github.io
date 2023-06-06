@@ -1,31 +1,31 @@
 * {
-    margin: 0;
-    padding: 0;
-    font-family: 'Poppins', sans-serif ;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
 }
 body {
-    background: rgb(12, 12, 12);
-    color: white;
-    font-size: 12pt;
+  background: rgb(12, 12, 12);
+  color: white;
+  font-size: 12pt;
 }
-h2{
-    color: #0079D1;
+h2 {
+  color: #0079d1;
 }
 .container {
-    padding-left: 7%;
-    padding-right: 7%;
+  padding-left: 7%;
+  padding-right: 7%;
 
-    /* margin-bottom: 7%; */
+  /* margin-bottom: 7%; */
 
-    /* background-color: orange; */
+  /* background-color: orange; */
 }
-a{
-    color: #0079D1;
-    /* text-decoration: none; */
+a {
+  color: #0079d1;
+  /* text-decoration: none; */
 }
 
 .container {
-    margin-bottom: 5%;
-    /* background-color: rgb(48, 48, 48); */
+  margin-bottom: 5%;
+  /* background-color: rgb(48, 48, 48); */
 }
