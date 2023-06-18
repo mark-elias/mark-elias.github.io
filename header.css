@@ -15,6 +15,10 @@ nav {
   flex-wrap: wrap;
   margin-top: 2%;
   /* position:fixed ; */
+  /* background-color: orange;
+  height: 10vh;
+  width: 100%;
+  position: fixed; */
 }
 /* to edit the logo */
 .logo {
