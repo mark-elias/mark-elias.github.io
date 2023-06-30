@@ -1,79 +1,67 @@
 #projects h2 {
   text-align: center;
-
-  /* margin-top: 17%; */
-  margin-bottom: 3%;
-  /* background-color: orange; */
+  margin-bottom: 3rem;
 }
 
 .projects-list {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  /* margin: 30px; */
-  /* margin-top: 50px; */
-  padding: 2%;
-
-  /* background-color: plum; */
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  gap: 2.5rem;
 }
 
 .project-item {
+  width: 60%;
+  height: 60%;
+  padding: 1rem 1rem;
+  
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  
   border: 0.7px solid #0079d1;
   border-radius: 10px;
-
-  padding: 1%;
-  /* overflow: ; */
-  height: 100%;
-  width: 40%;
-
-  margin-bottom: 5%;
-  /* margin-right: 2%; */
-  background-color: #000f1a;
+  
+  background-color: rgb(0, 15, 26, 80%);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  
+  transition: transform 0.3s;
 }
+.project-item:hover{
+  transform: scale(1.03);
+}
+
+
 .project-item h3 {
   text-align: center;
-  margin-bottom: 5%;
+  margin-bottom: 2.5rem;
 }
 .project-item img {
   width: 100%;
   height: auto;
   border-radius: 20px;
-  /* padding: 10px; */
-  /* how long the transition will take and what type */
-  transition: transform 0.3s ease;
-  transform-origin: center center;
-}
-.project-item:hover img {
-  transform: scale(1.03);
 }
 .project-item iframe {
-  /* width: 100%;
-  height: auto; */
   border-radius: 20px;
-  /* padding: 10px; */
-  /* how long the transition will take and what type */
-  transition: transform 0.3s ease;
-  transform-origin: center center;
 }
-.project-item iframe:hover {
-  transform: scale(1.03);
-}
+
 .project-item video {
   width: 100%;
   height: 100%;
   border-radius: 10px;
-  /* padding: 10px; */
-  /* how long the transition will take and what type */
-  transition: transform 0.3s ease;
-  transform-origin: center center;
-}
-.project-item video:hover {
-  transform: scale(1.07);
 }
 
-.project-item p,
-.project-item a {
-  margin-top: 2%;
-  margin-bottom: 4%;
-  /* background-color: orange; */
+
+.project-item p {
+  margin-top: 2.5rem;
+}
+
+project-links{
+  margin-top: 2.5rem;
+  
+  display: flex;
+  flex-flow: row wrap;
+  gap: 3rem;
 }
