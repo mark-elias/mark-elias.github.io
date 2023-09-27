@@ -1,31 +1,97 @@
-* {
-  margin: 0;
-  padding: 0;
-  font-family: "Poppins", sans-serif;
-  box-sizing: border-box;
+/* Color Palette */
+:root{
+    --background-color: #202124;
+    --text-color: #e8eaed;
+    --primary-color: #2176FF;
+    --secondary-color: #23CE6B;
+    --accent-color: #FC6DAB;
 }
-body {
-  background: rgb(12, 12, 12);
-  color: white;
-  font-size: 12pt;
+/* Typography */
+html{
+    /* 10px */
+    font-size: 62.5%;  
 }
-h2 {
-  color: #0079d1;
+body{
+    background-color: var(--background-color);
+    font-family: cubano,sans-serif;
+    font-size: 2.4rem;
+    color: var(--text-color);
+    padding: 0 10vw 0 10vw;
 }
-.container {
-  padding-left: 7%;
-  padding-right: 7%;
+h1{
+    font-size: 5rem;
+}
+h2{
+    font-size: 4rem;
+}
+h3{
+    font-size: 3rem;
+}
 
-  /* margin-bottom: 7%; */
-
-  /* background-color: orange; */
-}
-a {
-  color: #0079d1;
-  /* text-decoration: none; */
+/* Links */
+a, a:visited, a:active{
+    color: var(--accent-color);
 }
 
-.container {
-  margin-bottom: 5%;
-  /* background-color: rgb(48, 48, 48); */
+/* Badges */
+.badge{
+    border-radius: 20px;
+    padding: 0.5rem 2rem;
+    white-space: nowrap;
+    font-size: 2rem;
+}
+.badge--primary{
+    background-color: var(--primary-color);
+    color: var(--text-color);
+}
+.badge--secondary{
+    background-color: var(--secondary-color);
+    color: var(--text-color);
+}
+.badge--accent{
+    background-color: var(--accent-color);
+    color: var(--text-color);
+}
+
+/* NavBar */
+.nav-bar{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-bar a{
+    color: var(--text-color);
+}
+.logo a{
+    text-decoration: none;
+    font-size: 4rem;
+    font-weight: bold;
+    color: var(--primary-color);
+}
+.menu{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu li{
+    list-style: none;
+}
+.menu a{
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+@media screen and (max-width: 768px){
+    .nav-bar{
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+section{
+    border: 1px red solid;
 }
