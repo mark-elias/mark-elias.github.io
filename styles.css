@@ -21,6 +21,12 @@ body{
     color: var(--text-color);
     padding: 0 10vw 0 10vw;
 }
+@media screen and (max-width: 768px){
+    body{
+        padding: 0;
+    }
+}
+
 h1{
     font-size: 3.5rem;
     margin: 1rem;
@@ -102,13 +108,47 @@ a, a:visited, a:active{
 }
 
 section{
-    border: 1px red solid;
-    padding-top: 4rem;
-    padding-bottom: 4rem;
+    /* border: 1px red solid; */
+    /* padding: 4rem 1rem 4rem 1rem; */
+}
+
+/* Headers */
+.header--primary{
+    color: var(--primary-color);
+}
+.header--secondary{
+    color: var(--secondary-color);
+}
+.header--accent{
+    color: var(--accent-color);
+}
+/* Cards */
+.card{
+    border: 10px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 1rem 2rem 1rem 2rem;
+    margin-top: 40px;
+    margin-bottom: 40px;
+
+}
+.card h2{
+    text-align: center;
 }
 .hero{
     display: flex;
     flex-flow: column nowrap;
     justify-content: center;
     align-items: center;
+}
+
+/* Span Highlight */
+.highlight--primary{
+    color: var(--primary-color);
+}
+.highlight--secondary{
+    color: var(--secondary-color);
+}
+.highlight--accent{
+    color: var(--accent-color);
 }
