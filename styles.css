@@ -25,6 +25,9 @@ body{
     body{
         padding: 0;
     }
+    .hero h1{
+        font-size: 2.5rem;
+    }
 }
 
 h1{
