@@ -53,6 +53,10 @@ a:visited,
 a:active {
   color: var(--accent-color);
 }
+/* Lists */
+li {
+  margin-bottom: 10px;
+}
 
 /* Badges */
 .badge {
